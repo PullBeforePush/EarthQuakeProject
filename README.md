@@ -28,4 +28,4 @@ Let'e break down each layer:
 1. **Bronze Layer (Raw Data Ingestion)**
 - **What It Does**: This Layer is for storing raw data, exactly as we receive it form the API
    - **How We Do It**: Fetch earthquake data from an external API using a Python script and store it as JSON files in the Fabric Lakehouse.
-   -**Why it's Important**: This keeps the original data safe for audit incase issues rise and we need to audit the data.
+   - **Why it's Important**: This keeps the original data safe for audit incase issues rise and we need to audit the data.
