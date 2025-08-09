@@ -10,3 +10,14 @@ We'll source data from the **USGS Earthquake Hazards Program API**, and by the e
 
 Earthquake data is invaluable for understanding seismic activity and mitigating associated risks.
 Government agencies, research institutions, and insurance companies depend on timely, accurate information to plan emergency responses and assess potential hazards. This automated pipeline ensures that these stakeholders receive up-to-date data in a clear, accessible format—saving time, enhancing decision-making, and supporting more effective risk management.
+
+## **Solution Overview**
+
+We're going to use **Microsoft Fabric** to build an end-to-end earthquake data pipeline using the medallion architecture. This involves:
+- **Bronze Layer**: Collect raw earthquake data.
+- **Silver Layer**: Transform it into a clean, structured format.
+- **Gold Layer**: Enrich it with calculated fields for analysis.
+- **Power BI**: Visualise the data interactively.
+- **Data Factory**: Automate the entire process, ensuring up-to-date information daily.
+
+## **Project Architecture**
