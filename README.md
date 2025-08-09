@@ -1,4 +1,4 @@
-# Building an End-To_End Data engineering project using Microsoft Fabric
+# Building an End-To-End Data engineering project using Microsoft Fabric
 
 ## **Welcome to my first Data Engineering project!**
 
