@@ -21,3 +21,4 @@ We're going to use **Microsoft Fabric** to build an end-to-end earthquake data p
 - **Data Factory**: Automate the entire process, ensuring up-to-date information daily.
 
 ## **Project Architecture**
+![Frame 1](https://github.com/PullBeforePush/EarthQuakeProject/blob/d4839f63aa7949945ed58cca8923085d37642d11/DataDesign.png)
