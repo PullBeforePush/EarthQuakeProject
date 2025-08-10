@@ -37,11 +37,12 @@ Let'e break down each layer:
     - **What It Does**: This Layer prepares data for high-quality analysis
     - **How We Do It**: Use the silver layer data to create more meaningful information, like country codes and significances classification. The final output is saved as a Delta. 
     - **Why It's Important**: ready for executives.
+  6. **Orchestration with Data Factory**
+     - **What it Does**: Automate the entire pipeline so that it runs every day.
+     - **How We Do It**: Use **Data Factory** to set up a daily schedule, automating data collection, transformation and enrichment.
+     - **Why It's Important**: Automation means you don't need to manually update the data ensuring stakeholders always have up-to-date information.
   4. **Power BI Visualisation**
      - **What It Does**: Visualises the data to make it understandable at a glance.
      - **How We Do It**: Load the Gold Layer data into Power BI to create an interactive dashboard. Here, you can see trends and patterns in earthquake occurrences, like the number of events by country or the severity over time.
      - **Why It's Important**: Visualisation is crucial for communicating complex data simply making insights accessible to everyone.
-   6. **Orchestration with Data Factory**
-      - **What it Does**: Automate the entire pipeline so that it runs every day.
-      - **How We Do It**: Use **Data Factory** to set up a daily schedule, automating data collection, transformation and enrichment.
-      - **Why It's Important**: Automation means you don't need to manually update the data ensuring stakeholders always have up-to-date information.
+
